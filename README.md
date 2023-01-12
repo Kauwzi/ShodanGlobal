@@ -1,0 +1,3 @@
+# ShodanGlobal
+This script uses the Python libraries shodan, geoip2, and folium to create a map of IP addresses from a Shodan search. It first creates a Shodan object using an API key and performs a search using the search() method to retrieve a list of IP addresses. Then it uses the geoip2 library to look up the location of each IP address and add a marker to the map for each IP address, with the IP address as the marker's popup text. Finally, the script saves the map to an HTML file which can be viewed in a web browser.
+It requires the user to provide their shodan api key, maxmind user_id and license_key to function properly.
